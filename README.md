@@ -1,51 +1,63 @@
-# Calculator
-**Simple Calculator:**
-<br>
-This is a simple command-line calculator implemented in Python. It provides basic arithmetic operations: addition, subtraction, multiplication, and division. The user can choose an operation, input two numbers, and receive the result.
+🧮 Simple Calculator
 
-Features
-Addition: Adds two numbers.
-Subtraction: Subtracts the second number from the first.
-Multiplication: Multiplies two numbers.
-Division: Divides the first number by the second, with error handling for division by zero.
-Usage
-To run the program the user have to Choose an operation: When prompted, enter:
-1 for addition
-2 for subtraction
-3 for multiplication
-4 for division
-q to exit the program
-Input numbers: After selecting an operation, the user will give two numbers when asked.
-**Example:**
-choose option:
-1. addition
-2. subtraction
-3. multiplication
-4. division
-press 1,2,3,4 or q for exiting: 1
-tell first number: 5
-tell second number: 3
+A beginner-friendly command-line calculator built with Python.
+It supports the four basic arithmetic operations with error handling.
+
+✨ Features
+
+➕ Addition – Adds two numbers
+
+➖ Subtraction – Subtracts the second number from the first
+
+✖️ Multiplication – Multiplies two numbers
+
+➗ Division – Divides the first number by the second (with zero-division check)
+
+🚀 Usage
+
+Run the program in your terminal.
+
+Choose an operation:
+
+1 → Addition
+
+2 → Subtraction
+
+3 → Multiplication
+
+4 → Division
+
+q → Exit
+
+Enter two numbers when prompted.
+
+Get the result instantly! 🎯
+
+📌 Example
+Choose option:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+Press 1,2,3,4 or q for exiting: 1
+Tell first number: 5
+Tell second number: 3
 Result: 8.0
-Error Handling
-If the user attempts to divide by zero, the program will output an error message: "Error. Can’t divide by zero."
-If the user inputs a non-numeric value, the program will prompt them to enter a valid number.
-Code Structure
-python
 
-Run
+⚡ Error Handling
 
-def Add(x, y):
-    return x + y
+❌ Division by zero → "Error. Can’t divide by zero."
 
-def Subtract(x, y):
-    return x - y
+🔄 Invalid input → Prompts user to enter a valid number
 
-def Multiply(x, y):
-    return x * y
+🛠️ Code Structure
 
-def divide(x, y):
-    if y == 0:
-        return ("Error. Can’t divide by zero.")
-    return x / y
-Main Loop
-The program validates user input and re-requests entry when an invalid value is provided.
+Functions for each operation (Add, Subtract, Multiply, Divide)
+
+A main loop that:
+
+✅ Validates input
+
+🔁 Re-prompts for invalid entries
+
+🏁 Exits when q is entered
