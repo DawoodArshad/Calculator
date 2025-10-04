@@ -1,5 +1,6 @@
 # Calculator
-Simple Calculator
+**Simple Calculator:**
+<br>
 This is a simple command-line calculator implemented in Python. It provides basic arithmetic operations: addition, subtraction, multiplication, and division. The user can choose an operation, input two numbers, and receive the result.
 
 Features
@@ -8,17 +9,14 @@ Subtraction: Subtracts the second number from the first.
 Multiplication: Multiplies two numbers.
 Division: Divides the first number by the second, with error handling for division by zero.
 Usage
-Run the program: Execute the script in a Python environment.
-Choose an operation: When prompted, enter:
+To run the program the user have to Choose an operation: When prompted, enter:
 1 for addition
 2 for subtraction
 3 for multiplication
 4 for division
 q to exit the program
-Input numbers: After selecting an operation, input the two numbers when prompted.
-Example
-plaintext
-
+Input numbers: After selecting an operation, the user will give two numbers when asked.
+**Example:**
 choose option:
 1. addition
 2. subtraction
@@ -50,4 +48,4 @@ def divide(x, y):
         return ("Error. Can’t divide by zero.")
     return x / y
 Main Loop
-The program runs in a loop until the user decides to exit by entering q. It handles invalid inputs gracefully and prompts the user for re-entry.
+The program validates user input and re-requests entry when an invalid value is provided.
